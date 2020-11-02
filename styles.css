@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#31f5d8;
+}
+
+.div1{
+  width: 700px;
+  height: 500px;
+  border: 5px solid blue ;
+  background-color: #94b4f2;
+}
+.div2{
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+.box{
+  height: 200px;
+  width: 500px;
+  position: absolute;
+  left: 850px;
+  border: 5px solid blue ;
+  background-color: #e8b34a;
+  top: 350px;
+}
+table{
+  width: 80%;
+  padding: 10px;
+
+}
+th{
+  font-size: 25px;
+  padding: 10px;
+}
+td{
+  text-align: left;
+  padding-left: 60px;
+  font-size: 18px;
+}
+p{
+  padding: 10px;
+  font-size: 22px;
+}
+.list1{
+display: block;
+text-align: center;
+margin-left: -1px;
+padding: 1px;
+margin-bottom: 20px;
+background-color:#3770de;
+
+}
+.list2{
+  display: block;
+  text-align: center;
+  margin-left: -1px;
+  padding: 30px;
+  background-color:white;
+  margin-bottom: 20px;
+}
+h2{
+  color: white;
+  font-size: 2rem;
+}
+h3{
+  font-size: 2rem;
+}
+.form{
+  padding: 20px;
+  text-align: center;
+}
+label{
+  font-weight: bold;
+}
+.height{
+  padding: 5px;
+}
+.weight{
+  padding: 5px;
+}
+.type1{
+  margin-left:  17rem;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  margin-top: 12px;
+}
+.type2{
+margin-left:  3rem;
+font-weight:bold;
+border-radius: 10px;
+width: 80px;
+height: 30px;
+margin-top: 12px;
+
+}
+#bmi{
+color: #3b38eb;
+font-size: 25px;
+}
+.one{
+  margin-left:  15rem;
+
+
+}
+.two{
+    margin-left:  15rem;
+}
+h1{
+padding: 10px;
+}
+.type1:hover{
+  background-color: #31f53b;
+}
+.type2:hover{
+  background-color: #f24129;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  color: #fa4719;
+}
+@media (max-width: 1200px) {
+  .div1{
+    background-color:#94b4f2;
+    width: 100%;
+  }
+  .div2{
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 100%;
+  }
+  .box{
+    position: absolute;
+    top: 800px;
+    left: 0;
+    width: 100%;
+  }
+  .footer{
+    position: absolute;
+    top: 1000px;
+
+  }
+}

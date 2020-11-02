@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BMI Calculator</title>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/529d7c5027.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form onsubmit="return bmi();">
+    <div class="div1">
+      <li class="list1">
+        <h2>BMI Calculator</h2>
+      </li>
+      <label class="one"> Height</label>
+      <input type="number" name="" id="height" placeholder="centimeter"><br><br><br>
+      <label class="two">Weight</label>
+      <input type="number" name="" id="weight" placeholder="kilogram"><br><br><br>
+      <li class="list2">
+        <h3>Your BMI is</h3> <span id="bmi"></span>
+      </li>
+      <input class="type1" type="submit">
+      <input class="type2" type="reset">
+    </div>
+  </form>
+
+
+  <div class="div2">
+    <h1>BMI Introduction</h1>
+    <p>Body mass index (BMI) is a value derived from the mass (weight) and height of a person.
+     It is widely used as a general indicator of whether a person has a healthy body weight for their height.
+     Specifically, the value obtained from the
+      calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight,
+      or obese depending on what range the value falls between.<br><br>
+      <strong>Refer to the table below to see the different categories based on BMI that is used by the calculator.</strong></p>
+  </div>
+
+
+  <div class="box">
+    <table>
+      <tr>
+        <th>Weight</th>
+        <th>BMI</th>
+      </tr>
+      <tr>
+        <td>Under Weight</td>
+        <td>Below 18.5</td>
+      </tr>
+      <tr>
+        <td>Normal Weight</td>
+        <td>18.5-24.9</td>
+      </tr>
+      <tr>
+        <td>Over Weight</td>
+        <td>25.0-29.9</td>
+      </tr>
+
+      <tr>
+        <td>Obesity</td>
+        <td>30.0 and Above</td>
+      </tr>
+
+    </table>
+</div>
+<footer>
+  <div class="footer">
+    <p>©2020 <strong>Abhishek Kumar</strong></p>
+  </div>
+
+</footer>
+  <script src="bmi.js" charset="utf-8"></script>
+</body>
+
+</html>
